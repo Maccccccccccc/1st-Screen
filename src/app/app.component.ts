@@ -11,11 +11,11 @@ export class AppComponent {
   title = 'Endorsement';
 
   /*Policy Record History*/
-  displayedColumns: string [] = ['id', 'vpdf', 'vt', 'vgle',  'trd' , 'trn', 'td' , 'tt' , 'bn' , 'bd', 'bs','prem',
+  displayedColumns: string [] = ['id', 'vpdf', 'vt', 'vgle', 'tt' , 'td', 'trn','trd' ,'bn' , 'bd', 'bs','prem',
   'chrgs','gar','gc', 'nc', 'ov', 'wt', 'ra', 'cwt', 'nd', 'dscnt', 'pgl',]
 
-  transactions: Transaction [] = [{id: 1, vpdf: '', vt: 'INVOICE', vgle: '', trd: '05/18/2021' , trn: '106903', td: '05/18/2021' ,
-  tt: 'Invoice', bn: 106903, bd: '05/18/2021',bs: 'PHP', prem: 220891.00, chrgs: 115455.98, gar: 27544.98, gc: 5522.25,
+  transactions: Transaction [] = [{id: 1, vpdf: '', vt: 'INVOICE', vgle: '', tt: 'Invoice', td: '05/18/2021', trn: '106903', trd: '05/18/2021'
+  , bn: 106903, bd: '05/18/2021',bs: 'PHP', prem: 220891.00, chrgs: 115455.98, gar: 27544.98, gc: 5522.25,
    nc: 5522.25, ov: 662.67, wt: 828.34, ra: 22188.40, cwt: 0.00, nd: 22188.40, dscnt: 0.00, pgl: 'Yes',},
 
    {id: 2, vpdf: '', vt: 'INVOICE', vgle: '',trd: '05/18/2021' , trn: '106903', td: '05/18/2021',

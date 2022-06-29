@@ -8,13 +8,13 @@ body{
 }
 
 /*BANNER*/
-.B-H-T{
+.endorseBannerHeaderTitleContainer{
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 10;
 }
-.BANNER{
+.endorseBanner{
     height: 50px;
     background-color: rgb(31,56,98);
     color: white;
@@ -23,34 +23,34 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.BANNER i{
+.endorseBanner i{
     color: white;
 }
 .IBI{
     font-size: 25px;
 }
 
-.BL{
+.endorseBannerLogo{
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
     height: 50px;
 }
-.LG-CMPN{
+.endorseImgContainer{   
     display: flex;
     align-items: center;
 }
-.LG-CMPN img{
+.endorseImgContainer img{
     height: 30px;
     object-fit: cover; 
 }
-.USR, .fas{
+.endorseUser, .fas{
     padding: 0px 10px;
     font-size: 12px;
 }
 /*Breadcrumb*/
-.breadcrumb{
+.endorseBreadcrumbContainer{
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -60,37 +60,37 @@ body{
     background-color: white;
     margin: 0px 20px;
 }
-ul.breadcrumb{
+ul.endorseBreadcrumbContainer{
     font-size: 14;
     background-color: #fafafa;
 }
-ul.breadcrumb li{
+ul.endorseBreadcrumbContainer li{
     font-size: 14px;
 }
-.breadcrumb a{
+.endorseBreadcrumbContainer a{
     color: black;
     text-decoration: none;
     padding: 3px;
 }
-.breadcrumb a:hover{
+.endorseBreadcrumbContainer a:hover{
     border-radius: 5px;
 }
-.EVNTLGS{
+.endorseEventLogs{
     display: flex;
     width: 100%;
     justify-content: flex-end;
     padding-right: 30px;
 }
-.evntlgs{
+.EndorseEventLogsBtn{
     cursor: pointer;
     border: none;
     text-transform: uppercase;
     background-color: rgb(143, 188, 143);
 }
-.evntlgs:hover{
+.EndorseEventLogsBtn:hover{
     background-color: seagreen;
 }
-ul.breadcrumb li+li:before {
+ul.endorseBreadcrumbContainer li+li:before {
     padding: 8px;
     color: black;
     content: ">";
@@ -98,7 +98,7 @@ ul.breadcrumb li+li:before {
 
 /*DROPDOWN*/
 
-.USRDRPDWN{
+.endorseUserAcc{
     display: flex;
     align-items: center;
 }
@@ -115,7 +115,7 @@ ul.breadcrumb li+li:before {
 .header a{
     margin-right: 5px;
 }
-.title-header{
+.endorseScrnTitleContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,16 +124,16 @@ ul.breadcrumb li+li:before {
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
 }
-.title-header p{
+.endorseScrnTitleContainer p{
     padding: 2px;
     margin: 5px 10px;
 }
-.PERBC{
+.endorsePERBCTitle{
     font-size: 18px;
     color: black;
     font-weight: bold;
 }
-.TN{
+.endorseTransNo{
     padding: 3px 5px;
     background-color: royalblue;
     color: white;
@@ -141,7 +141,7 @@ ul.breadcrumb li+li:before {
     border-radius: 5px;
     font-weight: bold;
 }
-.SCRNID{
+.endorseScreenID{
     padding: 3px 5px;
     background-color: royalblue;
     color: white;
@@ -150,7 +150,7 @@ ul.breadcrumb li+li:before {
     font-weight: bold;
 }
 
-.PTH-title p{
+.endorsePolTransHisTitle p{
     border-bottom: 1px solid black;
     font-size: 16px;
     margin-bottom: 10;
@@ -199,25 +199,19 @@ ul.breadcrumb li+li:before {
 .div1 th:nth-child(6),
 .div1 td:nth-child(6){
     position: sticky;
-    left: 414px;
+    left: 409px;
     background-color: whitesmoke;
 }
 .div1 th:nth-child(7),
 .div1 td:nth-child(7){
     position: sticky;
-    left: 503px;
+    left: 487px;
     background-color: whitesmoke;
 }
-.div1 th:nth-child(8),
-.div1 td:nth-child(8){
-    position: sticky;
-    left: 581px;
-    background-color: whitesmoke;
-}
-.PRH{
+.endorsePolRecordGHisContainer{
     margin: 0 50px 20px;
 }
-.PRH p{
+.endorsePolRecordGHisContainer p{
     font-size: 14px;
     text-align: center;
     margin-bottom: 0;
@@ -292,10 +286,10 @@ tr.mat-row, tr.mat-footer-row{
 }
 /*Policy Record Coverage Table */
 
-.PRC{
+.endorsePolRecordCovContaier{
     margin: 0 50px 50px;
 }
-.PRC p{
+.endorsePolRecordCovContaier p{
     margin-bottom: 0;
     font-size: 14px;
 }
@@ -315,7 +309,7 @@ tr.mat-row, tr.mat-footer-row{
 
 /*BUTTON*/
 
-.BTNS{
+.endorseBtnContainer{
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -324,18 +318,18 @@ tr.mat-row, tr.mat-footer-row{
     background-color: white;
     padding: 20px 30px 20px 40px;
 }
-.GRNT-BTN, .pdf{
+.generateBtn, .endorseGenerateBtn{
     margin-right: 20px;
 }
 
-.cls{
+.endorseCloseBtn{
     border: none;
     cursor: pointer;
     text-transform: uppercase;
     background-color: rgb(255, 0, 0, 0.7);
     color: white;
 }
-.cls:hover{
+.endorseCloseBtn:hover{
     background-color: red;
 }
 
@@ -344,7 +338,7 @@ tr.mat-row, tr.mat-footer-row{
     padding: 3px 3px;
 }
 
-.pdf{
+.endorseGenerateBtn{
     padding: 0px 5px 0x 5x;
     border: none;
     cursor: pointer;
@@ -352,11 +346,11 @@ tr.mat-row, tr.mat-footer-row{
     background-color: rgb(250, 85, 9);
     color: white;
 }
-.pdf:hover{
+.endorseGenerateBtn:hover{
     background-color: rgb(204, 65, 15);
 }
 
-.excel{
+.endorseExcelBtn{
     padding: 0px 5px 0x 5x;;
     border: none;
     cursor: pointer;
@@ -364,29 +358,29 @@ tr.mat-row, tr.mat-footer-row{
     background-color: green;
     color: white;
 }
-.excel:hover{
+.endorseExcelBtn:hover{
     background-color: rgb(8, 163, 8);
 }
 
 @media only screen and (max-width: 720px) {
-    .BTNS{
+    .endorseBtnContainer{
         padding: 20px 0px 20px 40px;
         max-width: 90%;
     }
-    .PTH-title p{
+    .endorsePolTransHisTitle p{
         margin-top: 25%;
     }
-    .CN{
+    .endorseCompanyName{
         font-size: calc(0.625rem);
     }
-    .breadcrumb{
+    .endorseBreadcrumbContainer{
         align-items: center;
     }
-    .breadcrumb a{
+    .endorseBreadcrumbContainer a{
         padding: 0px;
         font-size: 12px;
     }
-    .title-header{
+    .endorseScrnTitleContainer{
         padding: 5px 0px;
     }
     .PTH{
@@ -395,27 +389,27 @@ tr.mat-row, tr.mat-footer-row{
 
 }
 @media only screen and (max-width: 500px) {
-    .BTNS{
+    .endorseBtnContainer{
         padding: 10px 40px;
         max-width: 100%;   
     }
-    .pdf{
+    .endorseGenerateBtn{
         margin-right: 3px;
     }
-    .cls{
+    .endorseCloseBtn{
         padding-right: 5px 10px;
     }
-    .CN{
+    .endorseCompanyName{
         font-size: 0.625rem;
     }
-    .cls, .pdf, .excel{
+    .endorseCloseBtn, .endorseGenerateBtn, .endorseExcelBtn{
         font-size: 10px;
         padding: 0px 5px;
     }
-    .PTH-title p{
+    .endorsePolTransHisTitle p{
         margin-top: 40%;
     }
-   .breadcrumb{
+   .endorseBreadcrumbContainer{
        align-items: center;
    }
    .TPH-T{
@@ -424,20 +418,21 @@ tr.mat-row, tr.mat-footer-row{
     overflow: auto;
     text-align: center;
 }
-    .title-header{
+    .endorseScrnTitleContainer
+    {
         padding: 5px 0px;
     }
-    .PTH{
+    .endorsePolTransHisContainer{
         overflow: auto;
     }
-    .main-form-container{
+    .endorsePolTransHisContainer{
         flex-direction: column;
     }
-    .ff{
+    .firstColumn{
         min-width: 300px;
         max-width: 500px;   
     }
-    .evntlgs{
+    .EndorseEventLogsBtn{
         display: none;
     }
     .mat-form-field.Refno{
@@ -445,37 +440,37 @@ tr.mat-row, tr.mat-footer-row{
     }
 }
 
-.main-form-container{
+.endorsePolTransHisContainer{
     display:flex;
     margin: 0 20px;
 }
-.fc{
+.columnContainer{
     border-radius: 4px; 
     width: fit-content; 
     margin: 0px 20px;
 }
-.ff{
+.firstColumn{
     min-width: 150px;
     width: 230px;
     margin: 0px 5px;
 }
-.sf{
+.secondColumn{
     min-width: 150px;
     width: 320px;
     margin: 0px 5px;
 }
-.tf{
+.thirdColumn{
     min-width: 150px;
     width: 230px;
     margin: 0px 5px;
 }
-.frf{
+.fourthColumn{
     min-width: 150px;
     width: 320px;
     margin: 0px 5px;
 }
   
-.example-full-width{
+.endorseMatFormFldContainer{
     width: 100%;
 }
 .Refno{

@@ -13,22 +13,22 @@
     <script src="./script.JS"></script>
 </head>
 <body>
-    <div class="main">
-        <div class="B-H-T">
-        <div class="BANNER">
-            <div class="BL">
-              <div class="L-T-O" style="display: flex;">
-                    <div class="LG-CMPN">
+    <div class="endorseMain">
+        <div class="endorseBannerHeaderTitleContainer">
+        <div class="endorseBanner">
+            <div class="endorseBannerLogo">
+              <div style="display: flex;">
+                  <div class="endorseImgContainer">
                       <a href="./app.component.html"><img src="assets/img-src/bg.png" alt=""></a>
-                    </div>
-                </div>
-                    <div class="CN">
-                        <span class="CN" style="font-size: 1.5625rem">Integrated&nbsp;Insurance&nbsp;Brokerage&nbsp;System&nbsp;</span>
-                        <span class="CN" style="font-size: 13px;">v5</span>
-                    </div>     
-                    <div class=" USRDRPDWN">
-                            <span class="USR">Juan&nbsp;Dela&nbsp;Cruz</span>
-                            <div class="dropdown">
+                  </div>
+              </div>
+                  <div class="">
+                        <span class="endorseCompanyName" style="font-size: 1.5625rem">Integrated&nbsp;Insurance&nbsp;Brokerage&nbsp;System&nbsp;</span>
+                        <span class="CendorseCompanyName" style="font-size: 13px;">v5</span>
+                  </div>     
+                    <div class="endorseUserAcc">
+                            <span class="endorseUser">Juan&nbsp;Dela&nbsp;Cruz</span>
+                            <div>
                                 <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
                                   <mat-icon>more_vert</mat-icon>
                                 </button>
@@ -36,70 +36,71 @@
                         </div>
             </div>
         </div>
-                <ul class="breadcrumb">
+                <ul class="endorseBreadcrumbContainer">
                     <li><a href="./SCR4104013.html">Home</a></li>
                     <li><a href="./SCR4104013.html">Marketing</a></li>
                     <li><a href="./SCR4104013.html">Transaction</a></li>
                     <li style="font-family: 'Poppins', sans-serif;"><a class="active" href="./Endorsement-SCR4104013.html "><b>Request&nbsp;for&nbsp;Endorsement&nbsp;By&nbsp;Client</b></a></li>
-                        <div class="EVNTLGS">
-                          <button class="evntlgs" mat-raised-button>Event&nbsp;Logs</button>
+                        <div class="endorseEventLogs">
+                          <button class="EndorseEventLogsBtn" mat-raised-button>Event&nbsp;Logs</button>
                         </div>
                 </ul>
-            <div class="title-header">
-                <span class="TN">Trans.&nbsp;No.&nbsp;1742</span>
-                <p class="PERBC">Process&nbsp;Endorsement&nbsp;Requested&nbsp;By&nbsp;Client</p>   
-                <span class="SCRNID">Screen&nbsp;ID:&nbsp;SCR4104013</span>
+
+            <div class="endorseScrnTitleContainer">
+                <span class="endorseTransNo">Trans.&nbsp;No.&nbsp;1742</span>
+                <p class="endorsePERBCTitle">Process&nbsp;Endorsement&nbsp;Requested&nbsp;By&nbsp;Client</p>   
+                <span class="endorseScreenID">Screen&nbsp;ID:&nbsp;SCR4104013</span>
             </div>
         </div>
  
-              <div class="PTH-title" style="margin: 150px 50px 0px;">
+              <div class="endorsePolTransHisTitle" style="margin: 150px 50px 0px;">
                   <p>Policy Transaction History</p>
               </div>
-              <div class="main-form-container">
-                <div class="fc">
-                    <form class="ff">
-                      <mat-form-field class="example-full-width" appearance="fill">
+              <div class="endorsePolTransHisContainer">
+                <div class="columnContainer">
+                    <form class="firstColumn">
+                      <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                         <mat-label><b>Policy&nbsp;Trans&nbsp;No:</b></mat-label>
                         <input matInput value="48312" disabled="true">
                       </mat-form-field>
-                      <mat-form-field class="example-full-width" appearance="fill">
+                      <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                         <mat-label><b>Business:</b></mat-label>
                         <input matInput value="New" disabled="true">
                       </mat-form-field>
-                      <mat-form-field class="example-full-width" appearance="fill">
+                      <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                         <mat-label><b>Status:</b></mat-label>
                         <input matInput value="Valid" disabled="true">
                       </mat-form-field>
-                      <mat-form-field class="example-full-width" appearance="fill">
+                      <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                         <mat-label><b>Policy&nbsp;No:</b></mat-label>
                         <input matInput value="GLTEST21ComAdj_CRG" disabled="true">
                       </mat-form-field>
-                      <mat-form-field class="example-full-width" appearance="fill">
+                      <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                         <mat-label><b>For&nbsp;the&nbsp;Account&nbsp;Of:</b></mat-label>
                         <input matInput value="Name04076&nbsp;C.&nbsp;Axx" disabled="true">
                       </mat-form-field>
                     </form>
                 </div>
 
-                <div class="fc">
-                  <form class="sf">
-                    <mat-form-field class="example-full-width" appearance="fill">
+                <div class="columnContainer">
+                  <form class="secondColumn">
+                    <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                       <mat-label><b>Assured/Policy&nbsp;Holder:</b></mat-label>
                       <input matInput value="Spouse Name04076&nbsp;and&nbsp;Name04077&nbsp;Axx" disabled="true">
                     </mat-form-field>
-                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                       <mat-label><b>Insured/Principal:</b></mat-label>
                       <input matInput value="(AIPC)ASIA&nbsp;INSURANCE&nbsp;(PHILIPPINES)&nbsp;Corporation" disabled="true">
                     </mat-form-field>
-                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                       <mat-label><b>Insurance&nbsp;Line/Type:</b></mat-label>
                       <input matInput value="ACCIDENT-Group Personal Accident&nbsp;(GPA)" disabled="true">
                     </mat-form-field>
-                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                       <mat-label><b>Coverage&nbsp;Priod:</b></mat-label>
                       <input matInput value="01\01\2022-12\31\2022" disabled="true">
                     </mat-form-field>
-                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                       <mat-label><b>TSI:</b></mat-label>
                       <input matInput value="Php&nbsp;1,000,000.00" disabled="true">
                     </mat-form-field>
@@ -107,41 +108,41 @@
               </div>
        
             
-              <div class="fc">
-                <form class="tf">
-                  <mat-form-field class="example-full-width" appearance="fill">
+              <div class="columnContainer">
+                <form class="thirdColumn">
+                  <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                     <mat-label><b>Branch:</b></mat-label>
                     <input matInput value="(HO)&nbsp;Head&nbsp;Office" disabled="true">
                   </mat-form-field>
-                  <mat-form-field class="example-full-width" appearance="fill">
+                  <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                     <mat-label><b>Busines&nbsp;Unit:</b></mat-label>
                     <input matInput value="(EMP)&nbsp;Captive&nbsp;Indivual&nbsp;Client" disabled="true">
                   </mat-form-field>
-                  <mat-form-field class="example-full-width" appearance="fill">
+                  <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                     <mat-label><b>Marketing&nbsp;AO:</b></mat-label>
                     <input matInput value="(MARY&nbsp;ANN)&nbsp;Mary&nbsp;Ann&nbsp;M&nbsp;Vasallo" disabled="true">
                   </mat-form-field>
-                  <mat-form-field class="example-full-width" appearance="fill">
+                  <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                     <mat-label><b>Referror:</b></mat-label>
                     <input matInput value="(None)" disabled="true">
                   </mat-form-field>
-                  <mat-form-field class="example-full-width" appearance="fill">
+                  <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                     <mat-label><b>Bank&nbsp;Branch/Deparment:</b></mat-label>
                     <input matInput value="(None)" disabled="true">
                   </mat-form-field>
                 </form> 
             </div>
-            <div class="fc">
-              <form class="frf">
-                <mat-form-field class="example-full-width" appearance="fill">
+            <div class="columnContainer">
+              <form class="fourthColumn">
+                <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                   <mat-label><b>Bank&nbsp;Group/Division:</b></mat-label>
                   <input matInput value="(None)" disabled="true">
                 </mat-form-field>
-                <mat-form-field class="example-full-width" appearance="fill">
+                <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                   <mat-label><b>Business&nbsp;Source:</b></mat-label>
                   <input matInput value="(AIPC)ASIA&nbsp;INSURANCE&nbsp;(PHILIPPINES)&nbsp;Corporation" disabled="true">
                 </mat-form-field>
-                <mat-form-field class="example-full-width" appearance="fill">
+                <mat-form-field class="endorseMatFormFldContainer" appearance="fill">
                   <mat-label><b>Mortgagee/Obligee:</b></mat-label>
                   <input matInput value="ACCIDENT-Group Personal Accident&nbsp;(GPA)" disabled="true">
                 </mat-form-field>
@@ -156,7 +157,7 @@
         
 
 <!--Policy Record Histor Table-->
-            <div class="PRH">
+            <div class="endorsePolRecordGHisContainer">
             <p mat-dialog-title>Policy Record History</p>
                 <div class="div1">
                     <table mat-table [dataSource]="transactions" class="mat-elevation-z81" style="width: 100%;">
@@ -335,7 +336,7 @@
             </div>
           
 
-            <div class="PRC" style="margin-top: 20px;">
+            <div class="endorsePolRecordCovContaier" style="margin-top: 20px;">
               <p mat-dialog-title style="text-align: center; color:black;">Policy Record Coverage</p>
                   <div style="overflow: auto;">
                       <table mat-table [dataSource]="dataSource2" class="mat-elevation-z81" style="width: 100%;">
@@ -416,14 +417,14 @@
    
 
          
-            <div class="BTNS">
-                <div class="CLS-BTN">
-                  <button class="cls" mat-raised-button><i class="fas fa-times-circle"></i>Close</button>
+            <div class="endorseBtnContainer">
+                <div class="closeBtn">
+                  <button class="endorseCloseBtn" mat-raised-button><i class="fas fa-times-circle"></i>Close</button>
                 </div>
                 
-                <div class="GRNT-BTN">
-                    <button class="pdf" mat-raised-button><i class="fas fa-file-pdf"></i>Generate&nbsp;PDF</button>
-                    <button class="excel" mat-raised-button><i class="fas fa-file-excel"></i>Generate&nbsp;Excel</button>
+                <div class="generateBtn">
+                    <button class="endorseGenerateBtn" mat-raised-button><i class="fas fa-file-pdf"></i>Generate&nbsp;PDF</button>
+                    <button class="endorseExcelBtn" mat-raised-button><i class="fas fa-file-excel"></i>Generate&nbsp;Excel</button>
                 </div>
               </div>
             
